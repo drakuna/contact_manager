@@ -1,9 +1,7 @@
 #include <iostream>
 #include <Windows.h>
-#include <time.h>
 #include <stdio.h>
-#include <conio.h>
-#include <string.h>
+#include <string>
 
 using namespace std;
 
@@ -30,7 +28,15 @@ Begin:;
 	Sleep(5000);
 	return 0;
 }
-
+/*
+Thu cach viet khac cua doan xu ly tren
+do
+{
+	Begin();
+	cin >> ichoice;
+	Action(ichoice);
+} while (i != 1 || i != 2 || i != 3);
+*/
 // cac ham chuc nang
 //ham lua chon hanh dong
 void Begin()
