@@ -29,13 +29,14 @@ Begin:;
 	return 0;
 }
 /*
-Thu cach viet khac cua doan xu ly tren
+//Thu cach viet khac cua doan xu ly tren
 do
 {
 	Begin();
 	cin >> ichoice;
 	Action(ichoice);
-} while (i != 1 || i != 2 || i != 3);
+} while (ichoice != 1 || ichoice != 2 || ichoice != 3);
+// doan xu ly chay dung nhung chua theo y muon
 */
 // cac ham chuc nang
 //ham lua chon hanh dong
